@@ -1,0 +1,3 @@
+      invoke  active_record
+      create    db/migrate/20160602101858_create_cocktails.rb
+      create    app/models/cocktail.rb
