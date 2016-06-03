@@ -1,5 +1,14 @@
+
 <%= form_for(@cocktail) do |f| %>
 <%= f.label :name %>
 <%= f.text_field :name %>
+<br>
+<br>
+<p> Add a photo </p>
+<%= f.file_field :photo %>
+<%= f.hidden_field :photo_cache %>
+<br>
+<br>
 <%= f.submit %>
 <% end %>
+
